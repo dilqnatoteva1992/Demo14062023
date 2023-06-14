@@ -27,5 +27,10 @@
 
             return area;
         }
+
+        public static double GetAreaOfCube(double side)
+        {
+            return GetSqareArea(side) * 6;
+        }
     }
 }
