@@ -16,7 +16,8 @@
             Console.WriteLine("Area for circle with radious 3 is:");
             Console.Write(GetCircleArea(2));
 
-
+            Console.WriteLine("Perimeter for cube with side 3 is:");
+            Console.Write(GetCubePerimeter(3));
         }
 
         public static double GetRectangleArea(double a, double b)
@@ -48,6 +49,13 @@
             double area = Math.PI * radious * radious;
 
             return area;
+        }
+
+        public static double GetCubePerimeter(double a)
+        {
+            double perimeter = 4 * a;
+
+            return perimeter;
         }
     }
 }
