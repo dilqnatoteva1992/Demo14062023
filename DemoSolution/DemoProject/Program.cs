@@ -57,5 +57,10 @@
 
             return perimeter;
         }
+
+        public static double RectanglePerimeter(double a, double b)
+        {
+
+        }
     }
 }
