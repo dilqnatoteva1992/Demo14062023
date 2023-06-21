@@ -12,6 +12,11 @@
 
             Console.WriteLine("Sqare area for square with side 3 is:");
             Console.Write(GetSqareArea(2));
+
+            Console.WriteLine("Area for circle with radious 3 is:");
+            Console.Write(GetCircleArea(2));
+
+
         }
 
         public static double GetRectangleArea(double a, double b)
@@ -36,6 +41,13 @@
         public static double GetAreaOfTriangle(double a, double ha)
         {
             return (a * ha) / 2;
+        }
+
+        public static double GetCircleArea(double radious)
+        {
+            double area = Math.PI * radious * radious;
+
+            return area;
         }
     }
 }
